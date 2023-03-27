@@ -31,47 +31,109 @@
             <li class="current"><a href="index.html">HOME</a></li>
             <li><a href="about.html">강의내용정리</a></li>
             <li><a href="site.html">참고사이트</a></li>
+            <li><a href="tech.html">사용기술</a></li>
           </ul>
         </nav>
       </div>
     </header>
 
-    <section id="showcase">
-      <div class="container">
-        <h1>2023-1 Crypto Programming</h1>
-        <h2>Crypto programming in Python and Web</h2>
-        <p>Node-forge / Pycryptodome with Prof. Byungcheon Lee</p>
-      </div>
-    </section>
-
-    <section id="boxes">
-      <div class="container">
-        <span style="text-align: center">[배우는 내용]</span>
-        <div class="box">
-          <img src="./img/nodeforge.png" /><br />
-
-          <h3>Node-forge</h3>
-          <br />
-          <p>
-            Forge 소프트웨어는 많은 네트워크 리소스를 사용하는 웹 앱을 개발하기
-            위한 JavaScript의 TLS 프로토콜, 암호화 유틸리티 세트 및 도구 세트의
-            완벽한 네이티브 구현입니다. <br /><br />
-            [출처]<br />https://www.npmjs.com/package/node-forge
-          </p>
-        </div>
-        <div class="box">
-          <img src="./img/pycrptodome.png" /><br />
-          <h3>Pycryptodome</h3>
-          <br />
-          <p>
-            <br />
-            PyCryptodome은 낮은 수준의 암호 원시 요소가 포함된 자체 Python
-            패키지입니다.<br />
-            <br />[출처] https://pypi.org/project/pycryptodome/
-          </p>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            1주차 : 오리엔테이션
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse show"
+          aria-labelledby="headingOne"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong>PPT와 강의 계획서를 통해 이번 학기에 어떤 교육목표를 가지고 어떤 방식으로 배우게 될 지 알아보는 시간을 가졌다. 
+          </div>
         </div>
       </div>
-    </section>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            2주차: 웹 프로그래밍 기초 교육
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingTwo"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong> 2학년때 배울 수 있는 웹프로그래밍을 빠르게 돌아보는 시간을 가졌다. 
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            3주차: 해시함수(1) 
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingThree"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong> Node.js 설치와 npm 설치방법, 해시함수 입/출력기를 만들어보는 실습을 진행하였고,터미널로 확인하는 방법과 웹으로 확인하는 방법에 대해 알아보았다. 
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseFour"
+            aria-expanded="false"
+            aria-controls="collapseFour"
+          >
+            4주차: 해시함수(2) - hmac 실습
+          </button>
+        </h2>
+        <div
+          id="collapseFour"
+          class="accordion-collapse collapse"
+          aria-labelledby="headingFour"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <strong> Hash와 MAC(메시지 인증 코드)의 다른점에 대해 알아보았으며 해시함수 실습때와 같이 입출력해보는 시간을 가짐.
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer>
       <p>Copyright &copy; 2023, 중부대학교 정보보호학과 91812830 이두리</p>
